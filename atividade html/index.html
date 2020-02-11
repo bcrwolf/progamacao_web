@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hello</title>
+
+</head>
+<style>
+    form {
+
+        /"colocar a tela no melho"/ 
+        text-align: center;
+        margin: 0 auto;
+        width: 600px;
+        border: 1px solid;
+        border-radius: 1mm;
+        padding: 10px;
+
+
+    }
+
+    form div+div {
+
+        margin-top: 10px;
+    }
+
+    label {
+        text-align: right;
+        display: inline-block;
+        width: 80px;
+    }
+
+    textarea {
+
+        font: 10px arial;
+        width: 300px;
+        border: 1px solid teal;
+        border-radius: 1mm;
+        vertical-align: top;
+        height: 100px;
+    }
+
+    input {
+
+        width: 299px;
+        border: 1px solid teal;
+
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    button {
+
+        margin-left: 165px;
+
+    }
+
+    body{
+
+        background-color: rgb(250, 250, 250);
+    }
+    
+</style>
+
+<body>
+    <div name="titulo">
+
+        <h3>pokersystem</h3>
+    </div>
+    <form action="contato.php" method="GET">
+        <Div name="nome">
+            <label>Nome:</label>
+            <input type="text" id="nome_cliente" placeholder="Digite seu nome">
+        </Div>
+
+        <Div name="email">
+            <label>Email:</label>
+            <input type="email" id="email_cliente" placeholder="Digite seu email">
+        </Div>
+
+        <Div name="mensagem">
+            <label>Mensagem:</label>
+            <textarea type="mensagem" id="mensagem_cliente" placeholder="Digite sua mensagem"></textarea>
+        </Div>
+
+        <Div name="botão">
+            <button id="enviar">enviar</button>
+        </Div>
+    </form>
+</body>
+
+</html>
